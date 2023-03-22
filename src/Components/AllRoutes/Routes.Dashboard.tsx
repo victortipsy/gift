@@ -83,6 +83,8 @@ const Shower = styled.div`
   border-radius: 8px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   font-weight: 200;
+  z-index: 1;
+  background-color: white;
   color: purple;
   @media screen and (min-width: 801px) and (max-width: 1051px) {
     display: none;
